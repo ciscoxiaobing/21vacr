@@ -19,6 +19,10 @@
     "source":"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0",
     "target":"21vrepo.azurecr.cn/devopsvip/kube-state-metrics:v2.13.0"
   },
+  {
+    "source":"docker.io/rockylinux:9.3.20231119-minimal",
+    "target":"21vrepo.azurecr.cn/devopsvip/rockylinux:9.3.20231119-minimal"
+  },
    {
     "source":"quay.io/prometheus/node-exporter:v1.8.2",
     "target":"21vrepo.azurecr.cn/devopsvip/node-exporter:v1.8.2"
