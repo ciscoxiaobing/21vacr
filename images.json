@@ -23,6 +23,10 @@
     "source":"docker.io/rockylinux:9.3.20231119-minimal",
     "target":"21vrepo.azurecr.cn/devopsvip/rockylinux:9.3.20231119-minimal"
   },
+  {
+    "source":"docker.io/kibana:7.17.23",
+    "target":"21vrepo.azurecr.cn/devopsvip/kibana:7.17.23"
+  },
    {
     "source":"quay.io/prometheus/node-exporter:v1.8.2",
     "target":"21vrepo.azurecr.cn/devopsvip/node-exporter:v1.8.2"
