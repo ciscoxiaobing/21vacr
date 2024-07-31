@@ -1,0 +1,110 @@
+ [  
+   {
+    "source":"quay.io/prometheus/alertmanager:v0.27.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/alertmanager:v0.27.0"
+  },
+   {
+    "source":"registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6"
+  },
+  {
+    "source":"quay.io/kiwigrid/k8s-sidecar:1.26.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/k8s-sidecar:1.26.1"
+  },
+   {
+    "source":"docker.io/grafana/grafana:11.1.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/grafana:11.1.0"
+  },
+   {
+    "source":"quay.io/prometheus-operator/prometheus-config-reloader:v0.75.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/prometheus-config-reloader:v0.75.1"
+  },
+   {
+    "source":"quay.io/prometheus-operator/prometheus-operator:v0.75.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/prometheus-operator:v0.75.1"
+  },
+   {
+    "source":"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.12.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/kube-state-metrics:v2.12.0"
+  },
+   {
+    "source":"quay.io/prometheus/node-exporter:v1.8.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/node-exporter:v1.8.1"
+  },
+  {
+    "source":"fluent/fluent-bit:3.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/fluent-bit:3.1"
+  },
+   {
+    "source":"docker.elastic.co/kibana/kibana:8.5.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/kibana:8.5.1"
+  },
+  {
+    "source":"docker.elastic.co/elasticsearch/elasticsearch:8.5.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/elasticsearch:8.5.1"
+  },
+  {
+    "source":"apache/skywalking-java-agent:9.2.0-java17",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17"
+  },
+  {
+    "source":"docker.elastic.co/elasticsearch/elasticsearch:7.5.1",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/elasticsearch:7.5.1"
+  },
+  {
+    "source":"skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-oap-server:9.2.0"
+  },
+  {
+    "source":"skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-ui:9.2.0"
+  },
+  {
+    "source":"busybox:1.30",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/busybox:1.30"
+  },
+  {
+    "source":"mysql/mysql-server:8.0.32",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/mysql-server:8.0.32"
+  },
+    {
+    "source": "redis:7.2.4",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/redis:7.2.4"
+  },
+   {
+    "source": "k8s.gcr.io/ingress-nginx/controller:v1.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/controller:v1.2.0"
+  },
+  {
+    "source": " k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/kube-webhook-certgen:v1.1.1"
+  },
+   {
+    "source": "sonarqube:9.9.0-community",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/sonarqube:9.9.0-community"
+  },
+  {
+    "source": "sonatype/nexus3:3.60.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/nexus3:3.60.0"
+  },
+  {
+    "source": "gitlab/gitlab-ce:16.2.2-ce.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/gitlab-ce:16.2.2-ce.0"
+  },
+  {
+    "source": "gitlab/gitlab-runner:alpine-v16.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/gitlab-runner:alpine-v16.2.0"
+  },
+  {
+    "source": "jenkins/inbound-agent:latest-jdk17",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/inbound-agent:latest-jdk17"
+  },
+    {
+    "source": "jenkins/inbound-agent:latest-jdk11",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/inbound-agent:latest-jdk11"
+  },
+   {
+    "source": "jenkins/jenkins:2.415-jdk11",
+    "target": "ccr.ccs.tencentyun.com/devopsvip/jenkins:2.415-jdk11"
+  }
+ ]
