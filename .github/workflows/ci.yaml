@@ -2,7 +2,7 @@
 #VERSION 2
 #renew
 
-name: Docker image sync to tencent
+name: Docker image sync to ACR
 env:
   REGISTRY_URL: "21vrepo.azurecr.cn/devopsvip"
 on:
