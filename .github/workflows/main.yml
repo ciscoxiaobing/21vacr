@@ -1,11 +1,18 @@
 # This is a basic workflow to help you get started with Actions
 #VERSION 2
 #renew
-
-name: Docker image sync to tencent
+name: Docker image sync to ACR
 env:
-  REGISTRY_URL: "ccr.ccs.tencentyun.com/devopsvip"
+  REGISTRY_URL: "21vrepo.azurecr.cn/devopsvip"
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
   push:
     paths:
       - 'images.json'
