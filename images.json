@@ -4,24 +4,24 @@
     "target":"21vrepo.azurecr.cn/devopsvip/k8s-sidecar:1.26.1"
   },
    {
-    "source":"docker.io/grafana/grafana:11.1.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/grafana:11.1.0"
+    "source":"docker.io/grafana/grafana:11.1.1",
+    "target":"21vrepo.azurecr.cn/devopsvip/grafana:11.1.1"
   },
    {
-    "source":"quay.io/prometheus-operator/prometheus-config-reloader:v0.75.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/prometheus-config-reloader:v0.75.1"
+    "source":"quay.io/prometheus-operator/prometheus-config-reloader:v0.75.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/prometheus-config-reloader:v0.75.2"
   },
    {
-    "source":"quay.io/prometheus-operator/prometheus-operator:v0.75.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/prometheus-operator:v0.75.1"
+    "source":"quay.io/prometheus-operator/prometheus-operator:v0.75.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/prometheus-operator:v0.75.2"
   },
    {
-    "source":"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.12.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/kube-state-metrics:v2.12.0"
+    "source":"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0",
+    "target":"21vrepo.azurecr.cn/devopsvip/kube-state-metrics:v2.13.0"
   },
    {
-    "source":"quay.io/prometheus/node-exporter:v1.8.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/node-exporter:v1.8.1"
+    "source":"quay.io/prometheus/node-exporter:v1.8.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/node-exporter:v1.8.2"
   }
 ]
 
