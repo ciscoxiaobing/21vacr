@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker.io/nginx:1.27.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/nginx:1.27.0"
+    "source":"docker.io/jenkins/jenkins:2.470",
+    "target":"21vrepo.azurecr.cn/devopsvip/jenkins:2.470"
   }
 ]
