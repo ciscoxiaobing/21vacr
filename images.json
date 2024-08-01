@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker.io/gitlab/gitlab-ce:16.7.9-ce.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/gitlab-ce:16.7.9-ce.0"
+    "source":"docker.io/velero/velero-plugin-for-microsoft-azure:v1.10.0",
+    "target":"21vrepo.azurecr.cn/devopsvip/velero-plugin-for-microsoft-azure:v1.10.0"
   }
 ]
