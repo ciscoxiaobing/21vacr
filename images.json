@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker.io/velero/velero-plugin-for-microsoft-azure:v1.10.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/velero-plugin-for-microsoft-azure:v1.10.0"
+    "source":"docker.io/velero/velero:v1.14.0",
+    "target":"21vrepo.azurecr.cn/devopsvip/velero:v1.14.0"
   }
 ]
