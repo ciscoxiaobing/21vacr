@@ -1,18 +1,14 @@
 [
   {
-    "source":"grafana/logstash-output-loki:1.0.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/logstash-output-loki:1.0.1"
+    "source":"quay.io/kiwigrid/k8s-sidecar:1.19.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/k8s-sidecar:1.19.2"
   },
   {
-    "source":"docker.io/grafana/promtail:2.9.3",
-    "target":"21vrepo.azurecr.cn/devopsvip/promtail:2.9.3"
+    "source":"grafana/grafana:10.3.3",
+    "target":"21vrepo.azurecr.cn/devopsvip/grafana:10.3.3"
   },
   {
-    "source":"docker.io/library/busybox:1.31.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/busybox:1.31.1"
-  },
-  {
-    "source":"docker.io/grafana/loki:2.6.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/loki:2.6.1"
+    "source":"quay.io/kiwigrid/k8s-sidecar:1.19.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/k8s-sidecar:1.19.2"
   }
 ]
