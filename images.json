@@ -1,6 +1,18 @@
 [
   {
-    "source":"docker.io/velero/velero:v1.14.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/velero:v1.14.0"
+    "source":"grafana/logstash-output-loki:1.0.1",
+    "target":"21vrepo.azurecr.cn/devopsvip/logstash-output-loki:1.0.1"
+  },
+  {
+    "source":"docker.io/grafana/promtail:2.9.3",
+    "target":"21vrepo.azurecr.cn/devopsvip/promtail:2.9.3"
+  },
+  {
+    "source":"docker.io/library/busybox:1.31.1",
+    "target":"21vrepo.azurecr.cn/devopsvip/busybox:1.31.1"
+  },
+  {
+    "source":"docker.io/grafana/loki:2.6.1",
+    "target":"21vrepo.azurecr.cn/devopsvip/loki:2.6.1"
   }
 ]
