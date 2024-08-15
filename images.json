@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker.io/grafana/loki:3.0.1",
-    "target":"21vrepo.azurecr.cn/devopsvip/grafana/loki:3.0.1"
+    "source":"docker.io/grafana/loki:2.8.11",
+    "target":"21vrepo.azurecr.cn/devopsvip/loki:2.8.11"
   }
 ]
