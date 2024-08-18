@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker.io/bitnami/zookeeper:3.9.2-debian-12-r11",
-    "target":"21vrepo.azurecr.cn/devopsvip/zookeeper:3.9.2-debian-12-r11"
+    "source":"docker.io/bitnami/kafka:3.8.0-debian-12-r3",
+    "target":"21vrepo.azurecr.cn/devopsvip/kafka:3.8.0-debian-12-r3"
   }
 ]
