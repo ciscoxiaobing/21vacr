@@ -1,6 +1,14 @@
 [
   {
-    "source":"docker.io/bitnami/kafka:3.8.0-debian-12-r3",
-    "target":"21vrepo.azurecr.cn/devopsvip/kafka:3.8.0-debian-12-r3"
+    "source":"docker.io/prom/prometheus:v2.53.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/prometheus:v2.53.2"
+  },
+  {
+    "source":"docker.io/prom/alertmanager:v0.27.0",
+    "target":"21vrepo.azurecr.cn/devopsvip/alertmanager:v0.27.0"
+  },
+  {
+    "source":"docker.io/prom/node-exporter:v1.8.2",
+    "target":"21vrepo.azurecr.cn/devopsvip/node-exporter:v1.8.2"
   }
 ]
