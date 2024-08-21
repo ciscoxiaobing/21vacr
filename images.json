@@ -1,14 +1,6 @@
 [
   {
-    "source":"docker.io/prom/prometheus:v2.53.2",
-    "target":"21vrepo.azurecr.cn/devopsvip/prometheus:v2.53.2"
-  },
-  {
-    "source":"docker.io/prom/alertmanager:v0.27.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/alertmanager:v0.27.0"
-  },
-  {
-    "source":"docker.io/prom/node-exporter:v1.8.2",
-    "target":"21vrepo.azurecr.cn/devopsvip/node-exporter:v1.8.2"
+    "source":"gcr.io/cadvisor/cadvisor:v0.50.0",
+    "target":"21vrepo.azurecr.cn/devopsvip/cadvisor:v0.50.0"
   }
 ]
