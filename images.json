@@ -1,6 +1,6 @@
 [
   {
-    "source":"gcr.io/cadvisor/cadvisor:v0.50.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/cadvisor:v0.50.0"
+    "source":"gitlab/gitlab-ce:17.4.5-ce.0",
+    "target":"21vrepo.azurecr.cn/devopsvip/gitlab-ce:17.4.5-ce.0"
   }
 ]
