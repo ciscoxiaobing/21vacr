@@ -1,11 +1,32 @@
 [
   {
-    "source":"mcr.microsoft.com/mirror/docker/library/mongo:4.2",
-    "target":"21vrepo.azurecr.cn/akstoredemo/mongo:4.2"
+    "source":"ghcr.io/azure-samples/aks-store-demo/order-service:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/order-service:latest"
   },
   {
-    "source":"mcr.microsoft.com/mirror/docker/library/rabbitmq:3.10-management-alpine",
-    "target":"21vrepo.azurecr.cn/akstoredemo/rabbitmq:3.10-management-alpine"
+    "source":"ghcr.io/azure-samples/aks-store-demo/makeline-service:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/makeline-service:latest"
+  },
+  {
+    "source":"ghcr.io/azure-samples/aks-store-demo/product-service:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/product-service:latest"
+  },
+  {
+    "source":"ghcr.io/azure-samples/aks-store-demo/store-front:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/store-front:latest"
+  },
+  {
+    "source":"ghcr.io/azure-samples/aks-store-demo/store-admin:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/store-admin:latest"
+  },
+  {
+    "source":"ghcr.io/azure-samples/aks-store-demo/virtual-customer:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/virtual-customer:latest"
+  },
+  {
+    "source":"ghcr.io/azure-samples/aks-store-demo/virtual-worker:latest",
+    "target":"21vrepo.azurecr.cn/akstoredemo/virtual-worker:latest"
   }
+  
   
 ]
