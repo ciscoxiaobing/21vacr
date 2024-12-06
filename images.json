@@ -1,6 +1,11 @@
 [
   {
-    "source":"gitlab/gitlab-ce:17.4.5-ce.0",
-    "target":"21vrepo.azurecr.cn/devopsvip/gitlab-ce:17.4.5-ce.0"
+    "source":"mcr.microsoft.com/mirror/docker/library/mongo:4.2",
+    "target":"21vrepo.azurecr.cn/akstoredemo/mongo:4.2"
+  },
+  {
+    "source":"mcr.microsoft.com/mirror/docker/library/rabbitmq:3.10-management-alpine",
+    "target":"21vrepo.azurecr.cn/akstoredemo/rabbitmq:3.10-management-alpine"
   }
+  
 ]
