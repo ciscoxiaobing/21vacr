@@ -1,10 +1,6 @@
 [
   {
-    "source":"nginx:stable-alpine",
-    "target":"acrcn.azurecr.cn/akstoredemo/nginx:stable-alpine"
-  },
-  {
-    "source":"busybox:stable-uclibc",
-    "target":"acrcn.azurecr.cn/akstoredemo/busybox:stable-uclibc"
+    "source":"alpine:latest",
+    "target":"acrcn.azurecr.cn/akstoredemo/alpine:latest"
   }
 ]
