@@ -3,7 +3,7 @@
 #renew
 name: Docker image sync to ACR
 env:
-  REGISTRY_URL: "21vrepo.azurecr.cn/devopsvip"
+  REGISTRY_URL: "acrcn.azurecr.cn/devopsvip"
 on:
   push:
     paths:
