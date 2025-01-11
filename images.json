@@ -1,6 +1,10 @@
 [
   {
-    "source":"k8s.gcr.io/e2e-test-images/agnhost:2.53",
-    "target":"21vrepo.azurecr.cn/akstoredemo/agnhost:2.53"
+    "source":"nginx:stable-alpine",
+    "target":"acrcn.azurecr.cn/akstoredemo/nginx:stable-alpine"
+  },
+  {
+    "source":"busybox:stable-uclibc",
+    "target":"acrcn.azurecr.cn/akstoredemo/busybox:stable-uclibc"
   }
 ]
