@@ -1,6 +1,6 @@
 [
   {
-    "source":"alpine:latest",
-    "target":"acrcn.azurecr.cn/akstoredemo/alpine:latest"
+    "source":"busybox:stable",
+    "target":"acrcn.azurecr.cn/akstoredemo/busybox:stable"
   }
 ]
