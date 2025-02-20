@@ -1,6 +1,6 @@
 [
   {
-    "source":"busybox:stable",
-    "target":"acrcn.azurecr.cn/akstoredemo/busybox:stable"
+    "source":"docker.io/library/tomcat:latest",
+    "target":"acrcn.azurecr.cn/akstoredemo/tomcat:latest"
   }
 ]
