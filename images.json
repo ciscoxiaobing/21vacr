@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker.io/library/tomcat:latest",
-    "target":"acrcn.azurecr.cn/akstoredemo/tomcat:latest"
+    "source":"jenkins/inbound-agent:latest-jdk17",
+    "target":"acrcn.azurecr.cn/akstoredemo/inbound-agent:latest-jdk17"
   }
 ]
