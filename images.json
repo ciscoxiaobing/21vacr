@@ -1,6 +1,6 @@
 [
   {
-    "source":"jenkins/inbound-agent:latest-jdk17",
-    "target":"acrcn.azurecr.cn/akstoredemo/inbound-agent:latest-jdk17"
+    "source":"maven:3.9.9-eclipse-temurin-17",
+    "target":"acrcn.azurecr.cn/akstoredemo/maven:3.9.9-eclipse-temurin-17"
   }
 ]
