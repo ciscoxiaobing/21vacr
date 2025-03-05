@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker:25.0.5-git",
-    "target":"acrcn.azurecr.cn/akstoredemo/docker:25.0.5-git"
+    "source":"docker:dind",
+    "target":"acrcn.azurecr.cn/akstoredemo/docker:dind"
   }
 ]
