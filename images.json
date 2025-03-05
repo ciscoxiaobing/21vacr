@@ -1,6 +1,6 @@
 [
   {
-    "source":"docker:dind",
-    "target":"acrcn.azurecr.cn/akstoredemo/docker:dind"
+    "source":"cnych/jenkins:jnlp6",
+    "target":"acrcn.azurecr.cn/akstoredemo/cnych/jenkins:jnlp6"
   }
 ]
