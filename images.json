@@ -1,6 +1,6 @@
 [
   {
-    "source":"maven:3.9.9-eclipse-temurin-17",
-    "target":"acrcn.azurecr.cn/akstoredemo/maven:3.9.9-eclipse-temurin-17"
+    "source":"docker:25.0.5-git",
+    "target":"acrcn.azurecr.cn/akstoredemo/docker:25.0.5-git"
   }
 ]
