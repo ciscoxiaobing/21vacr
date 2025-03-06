@@ -1,6 +1,10 @@
 [
   {
-    "source":"quay.io/argoproj/kubectl-argo-rollouts:v1.8.0",
-    "target":"acrcn.azurecr.cn/akstoredemo/argoproj/kubectl-argo-rollouts:v1.8.0"
+    "source":"quay.io/argoproj/argo-rollouts:v1.7.2",
+    "target":"acrcn.azurecr.cn/akstoredemo/argoproj/argo-rollouts:v1.7.2"
+  },
+  {
+    "source":"quay.io/argoproj/kubectl-argo-rollouts:v1.7.2",
+    "target":"acrcn.azurecr.cn/akstoredemo/argoproj/kubectl-argo-rollouts:v1.7.2"
   }
 ]
