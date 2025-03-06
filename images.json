@@ -1,6 +1,6 @@
 [
   {
-    "source":"cnych/jenkins:jnlp6",
-    "target":"acrcn.azurecr.cn/akstoredemo/cnych/jenkins:jnlp6"
+    "source":"quay.io/argoproj/argo-rollouts:v1.8.0",
+    "target":"acrcn.azurecr.cn/akstoredemo/argoproj/argo-rollouts:v1.8.0"
   }
 ]
